@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+.form-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.form-qwe-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+
+.form-input-flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.form-input-flex > div {
+  width: 50%;
+}
+
+.form-input-radio-wrapper {
+  margin-bottom: 28px;
+}
+.form-radio-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.form-radio-label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #07074D;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.form-input-radio-wrapper {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#form-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+  border: none;
+  background-color: #ffffff;
+  border-style: g;
+}
+
+#form-input:focus {
+  outline: none;
+}
+
+#form-input::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ffffff;
+  pointer-events: none;
+}
+
+#form-input::-ms-expand {
+  display: none;
+}
+
+
+
+.form-radio-label .form-radio-checkmark:after {
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  transform: translate(-50%, -50%);
+}
+
+.form-form-input {
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #DDE3EC;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+  resize: none;
+}
+
+.form-form-label {
+  color: #07074D;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+  
+}
+.form-jobtitle-label {
+  color: #07074D;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+  
+}
+.form-btn {
+	padding: 14px 25px;
+  width: 100%;
+  text-align: center;
+	color: rgb(150, 83, 83);
+	background-color: transparent;
+	border: 2px solid rgb(0, 0, 0);
+	font-size: 16px;
+    font-weight: 500;
+	margin-top: 25px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+    cursor: pointer;
+}
+#jobtitle{
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #DDE3EC;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0e0d0c;
+  outline: none;
+  resize: none;
+}
+.form-btn:hover {
+	color: rgb(12, 11, 11);
+	background-color: rgb(124, 126, 128);
+}
